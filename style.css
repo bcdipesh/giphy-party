@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: nunito, sans-serif !important;
+}
+
+button {
+	padding: 0.3rem 2rem;
+	cursor: pointer;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1 {
+	margin: 5rem 0;
+}
+
+#search-term {
+	padding: 0.3rem 2rem;
+	border: 0;
+	border-bottom: 1px solid grey;
+}
+
+#search-term:focus {
+	outline: none;
+	border-bottom: 1px solid black;
+}
+
+.gifs {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.gif {
+	margin: 1rem;
+}
+
+.remove-gif-btn {
+	margin: 1rem 0;
+}
