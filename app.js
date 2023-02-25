@@ -73,4 +73,5 @@ searchGifForm.addEventListener('submit', async (e) => {
 
 removeGifBtn.addEventListener('click', (e) => {
 	gifs.innerHTML = '';
+	previousGifs = [];
 });
